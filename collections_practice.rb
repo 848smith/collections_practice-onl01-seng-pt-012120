@@ -25,6 +25,7 @@ end
 def find_a(array)
   array.map do |letter|
     letter.find("a").first
+  end
 end
 
 def sum_array(array)
