@@ -19,7 +19,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.collect do |char|
+  array.each do |char|
     char[2] = $
   end
 end
