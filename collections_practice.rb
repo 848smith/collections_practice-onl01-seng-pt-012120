@@ -21,6 +21,7 @@ end
 def kesha_maker(array)
   array.collect do |char|
     char[2] = $
+  end
 end
 
 def find_a(array)
