@@ -23,7 +23,8 @@ def kesha_maker(array)
 end
 
 def find_a(array)
-  array.find(a).first
+  array.map do |letter|
+    letter.find("a").first
 end
 
 def sum_array(array)
